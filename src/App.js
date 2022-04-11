@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <Scoreboard score={playCount} best={bestScore} />
       <Gameboard onClick={clickCountHandler} />
+      <footer>Created by Thiseas K.</footer>
     </div>
   );
 }

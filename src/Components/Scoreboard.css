@@ -1,0 +1,24 @@
+#header{
+
+   padding: 3rem;
+   width: calc(100% - 6rem);
+   margin-bottom: 0;
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.2rem;
+   background-color: #032157;
+   color: white;
+}
+
+#title{
+   max-width: 50%;
+}
+
+#header p {
+   margin: 0;
+   
+}
+
+#scoreboard{
+   font-weight: bold;
+}

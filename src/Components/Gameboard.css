@@ -1,11 +1,13 @@
  #gameboard-ctn{
-   margin-top: 3rem;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
    padding: 3rem;
+   
 } 
 
 #gameboard{
    display: grid;
-   grid-template-columns: repeat(4, minmax(3rem, 10rem));
+   grid-template-columns: repeat(4, minmax(3rem, 9rem));
    gap: 1.2rem;
    grid-template-rows: auto;
+   
 }
