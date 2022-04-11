@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import Gameboard from "./Components/Gameboard";
+import Scoreboard from "./Components/Scoreboard";
 
 function App() {
+  const [playCount, setPlayCount] = useState(0);
+  const [bestScore, setBestScore] = useState(0);
+  const [playedCards, setPlayedCards] = useState([]);
+
+  const clickCountHandler = (clickedCard) => {
+    if (!playedCards.includes(clickedCard)) {
+      setPlayedCards((prevPlayed) => [...prevPlayed, clickedCard]);
+      setPlayCount(playCount + 1);
+    } else {
+      if (playCount > bestScore) {
+        setBestScore(playCount);
+      }
+      setPlayedCards([]);
+      setPlayCount(0);
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Scoreboard score={playCount} best={bestScore} />
+      <Gameboard onClick={clickCountHandler} />
     </div>
   );
 }
