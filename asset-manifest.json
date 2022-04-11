@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.70a777ea.css",
+    "main.js": "/memory-card-game/static/js/main.371f96c3.js",
+    "static/js/787.1e4cd832.chunk.js": "/memory-card-game/static/js/787.1e4cd832.chunk.js",
+    "static/media/syros.jpeg": "/memory-card-game/static/media/syros.d6d92f2d57e4efae0b1f.jpeg",
+    "static/media/koufonisia.jpeg": "/memory-card-game/static/media/koufonisia.aa7ba5db36e8fdb762a9.jpeg",
+    "static/media/kythnos.jpeg": "/memory-card-game/static/media/kythnos.eb6a8077673f544c3556.jpeg",
+    "static/media/mykonos.jpeg": "/memory-card-game/static/media/mykonos.03647ae01242490f6507.jpeg",
+    "static/media/sifnos.jpeg": "/memory-card-game/static/media/sifnos.55d7c8b607d7315bc3df.jpeg",
+    "static/media/santorini.jpeg": "/memory-card-game/static/media/santorini.ff504d11007698b2da6b.jpeg",
+    "static/media/mylos.jpeg": "/memory-card-game/static/media/mylos.d26e33178dd42a21cd92.jpeg",
+    "static/media/naxos.jpeg": "/memory-card-game/static/media/naxos.ff0570a67a4b6b15ca1f.jpeg",
+    "static/media/paros.jpeg": "/memory-card-game/static/media/paros.7113d066c9fc04fcc48a.jpeg",
+    "static/media/iraklia.jpeg": "/memory-card-game/static/media/iraklia.3eb10208bbe850e99208.jpeg",
+    "static/media/antiparos.jpeg": "/memory-card-game/static/media/antiparos.9a2906c80453ded8e6d5.jpeg",
+    "static/media/amorgos.jpeg": "/memory-card-game/static/media/amorgos.48ceae3ee3c687fad65e.jpeg",
+    "static/media/andros.jpeg": "/memory-card-game/static/media/andros.fb6ec3b5c06fb09ad4e0.jpeg",
+    "static/media/tinos.jpeg": "/memory-card-game/static/media/tinos.a33b80a98aea488221a8.jpeg",
+    "static/media/ios.jpeg": "/memory-card-game/static/media/ios.3306896a9c1998b6e146.jpeg",
+    "static/media/serifos.jpeg": "/memory-card-game/static/media/serifos.12d917209f9316b996a6.jpeg",
+    "index.html": "/memory-card-game/index.html",
+    "main.70a777ea.css.map": "/memory-card-game/static/css/main.70a777ea.css.map",
+    "main.371f96c3.js.map": "/memory-card-game/static/js/main.371f96c3.js.map",
+    "787.1e4cd832.chunk.js.map": "/memory-card-game/static/js/787.1e4cd832.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70a777ea.css",
+    "static/js/main.371f96c3.js"
+  ]
+}
